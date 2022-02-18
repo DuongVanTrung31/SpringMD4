@@ -4,11 +4,12 @@ import model.Customer;
 import service.CustomerService;
 
 import java.util.ArrayList;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
-
 import static java.util.Arrays.asList;
+
 
 public class SimpleCustomerServiceImpl implements CustomerService {
     private static List<Customer> customers;

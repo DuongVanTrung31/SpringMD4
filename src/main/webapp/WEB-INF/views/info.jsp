@@ -1,5 +1,5 @@
-
-<form action="/customers" method="post">
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<form action="${pageContext.request.contextPath}/customers" method="post">
 <fieldset>
     <legend>Customer Information</legend>
     <input type="hidden" name="id" value="${customer.id}">
@@ -36,4 +36,4 @@
     </table>
 </fieldset>
 </form>
-<a href="/customers">Back to list</a>.
+<a href="/customers">Back to list</a>
